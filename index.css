@@ -1,0 +1,91 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Times New Roman, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#categoryA{
+    width: 400px;
+    border: 10px solid blue ;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  #categoryB{
+    width: 400px;
+    border: 10px solid blue ;
+    padding: 20px;
+    margin: 20px;
+  }
+
+
+h1 {
+    color: #333;
+}
+
+
+h2 {
+    color: #333;
+    margin-right: auto;
+}
+
+.categories {
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.category {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 45%; 
+}
+
+.category {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.bookmark {
+    margin-bottom: 20px;
+}
+
+.bookmark p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.bookmark a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.bookmark a:hover {
+    text-decoration: underline;
+}
+
+.bookmark a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #0074D9;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;  
+    font-size: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
